@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+   --text-center: center;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafbfc;
+}
+
+header {
+    background-color: rgb(123, 0, 255);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 600;
+}
+ main {
+    padding: 3rem 5rem;
+ }
+
+ .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+ }
+
+ .line-input {
+    display: grid;
+    margin-bottom: 1rem;
+ }
+
+ input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    outline: 0;
+ }
+ button {
+    border: 0;
+    padding: 1rem;
+    outline: 0;
+    background-color:  rgb(123, 0, 255) ;
+    color: white;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    transition: all ease 0.3ms;
+ }
+
+ button:hover {
+    background-color:  rgb(78, 3, 158) ;
+ }
+
+ .content {
+    margin-top: 1.5rem;
+ }
+
+ table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+ }
+
+ table th {
+    background-color: #e6e6e6;
+    font-size: 1.6rem;
+    padding: 1rem 0.5rem;
+ }
+
+ table td img { 
+    width: 2.2rem;
+    
+ }
+
+ table td {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+ }
+
+ .center {
+    text-align: center;
+ }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="script/main.js" defer></script>
+</head>
+<body>
+   <header>
+        <h1>Minha Loja</h1>
+   </header>
+
+   <main>
+        <div class="titulo">
+            <h2>Produtos</h2>
+        </div>
+        <span>Lista de produtos</span>
+
+        <div class="card">
+            <div class="line-input">
+                <label>Produtos</label>
+                <input type="text" id="produto" placeholder="Valor do produto">
+            </div>
+            <div class="line-input">
+                <label>Preço</label>
+                <input type="number" id="valor" placeholder="Valor do produto">
+            </div>
+            
+            <button onclick="produto1.salvar()" id="btn-att">Salvar</button>
+            <button onclick="produto1.cancelar()">Exluir</button>
+        </div>
+
+        <div class="content">
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </thead>
+
+                <tbody id="tbody">
+                   
+
+                </tbody>
+            </table>
+        </div>
+   </main>
+    
+</body>
+</html>
